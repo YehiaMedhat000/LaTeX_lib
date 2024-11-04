@@ -1,0 +1,24 @@
+
+\begin{aligned}
+& \mathcal{F}\left\{e^{-t^2-3 i t}+e^{-4\left(t^2+2 t\right)}\right\} \\
+& \because \mathcal{F}\left\{e^{-i 3 t} e^{-t^2}\right\}=\sqrt{\pi} e^{-\frac{(\omega+3)^2}{4}} \\
+& , \mathcal{F}\left\{e^{-4\left(t^2+2 t+1\right)+4}\right\}=e^4 \frac{1}{4} \sqrt{\pi} e^{\frac{-\omega^2}{64}}
+\end{aligned}
+
+\begin{aligned}
+& \mathcal{F}\left\{e^{-|t|} \sin t\right\}=\mathcal{F}\left\{e^{-|t|} \frac{e^{i t \omega}-e^{-i t \omega}}{2 i}\right\} \\
+& =\frac{1}{2 i} \mathcal{F}\left\{e^{-|t|} e^{i \omega t}\right\}-\frac{1}{2 i}\mathcal{F}\left\{e^{-|t|} e^{-i \omega t}\right\} \\
+& =\frac{1}{2 i}\left[\frac{2}{1+(\omega+1)^2}-\frac{2}{1+(\omega-1)^2}\right]\\
+\end{aligned}
+
+\begin{aligned}
+& \mathcal{F}\left\{e^{-4 i t}+\sin 3 t\right\}\\
+&\therefore\mathcal{F}\left\{e^{-4 i t} 1\right\}=2 \pi \delta(\omega+4) \\
+& \text {, } \mathcal{F}\{\sin 3 t\}=\frac{\pi}{2 i}\left[e^{3 i t}-e^{-3 i t}\right] \\
+& =\frac{2 \pi}{2 i}[\delta(\omega-3)-\delta(\omega+3)] 
+\end{aligned}
+
+\begin{aligned}
+& \mathcal{F}\left\{e^{-|2 t-5|} \cos 3 t\right\}=\frac{1}{2} \mathcal{F}\left\{e^{-|2 t-5|} e^{3 i t}+e^{-|2 t-5|} e^{-3 i t}\right\}\\
+& = \frac{1}{2}\left[\frac{4 e^{-\frac{5}{2}(\omega-3)}}{\left(\omega-3\right)^2+4}+\frac{4e^{-\frac{5}{2} i(\omega+3)}}{(\omega+3)^2+4}\right]
+\end{aligned}
